@@ -366,8 +366,7 @@ h6 {
   height: 100vh;
   /* background: url("../img/hero-bg.jpg") top center; */
   /*background: linear-gradient(90deg, red 0%, green 50%, blue 100%);*/
-  background: rgb(139,15,222);
-  background: linear-gradient(90deg, rgba(139,15,222,1) 0%, rgba(40,207,152,1) 37%, rgba(17,242,150,1) 48%, rgba(42,239,144,1) 55%, rgba(255,199,43,1) 100%);
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   background-size: cover;
   position: relative;
 }
