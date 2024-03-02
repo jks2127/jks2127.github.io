@@ -7,12 +7,11 @@
 */
 function sendMessage() {
   const form = document.getElementById("form");
-  console.log("____________________", document.getElementById("email").validity.valid);
   if(!document.getElementById("email").validity.valid || !document.getElementById("name").validity.valid || !document.getElementById("subject").validity.valid  || !document.getElementById("message").validity.valid){
-    console.log("____________________ invalid");
     return false;
   }
-  const apiUrl = 'http://localhost:8080/api/v1/msg91/websiteContactUs';
+  //const apiUrl = 'http://localhost:8080/api/v1/msg91/websiteContactUs';
+  const apiUrl = 'https://immune-clam-pleased.ngrok-free.app/api/v1/msg91/websiteContactUs";
   const data = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
