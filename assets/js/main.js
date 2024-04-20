@@ -12,7 +12,7 @@ function sendMessage() {
     console.log("____________________ invalid");
     return false;
   }
-  const apiUrl = 'http://localhost:8080/api/v1/msg91/websiteContactUs';
+  const apiUrl = 'https://immune-clam-pleased.ngrok-free.app/api/v1/msg91/websiteContactUs';
   const data = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
